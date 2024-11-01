@@ -33,11 +33,11 @@ Para visualizar el proyecto es necesario tener un navegador web y un editor de c
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+   git clone https://github.com/DendroIDE/LRN001_CursoFrontEndDeveloper.git
    ```
 2. Accede a la carpeta del proyecto:
    ```bash
-   cd nombre-del-repositorio
+   cd LRN001_CursoFrontEndDeveloper
    ```
 
 ## Uso
