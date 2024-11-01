@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Selector combinador descendiente */
+        div p {
+            color: green;
+        }
+
+        /* Selector combinador hijo directo */
+        div>div {
+            background: blue;
+        }
+
+        div>div>div {
+            color: red;
+        }
+
+        .selector {
+            background: salmon;
+        }
+
+        /* Selector combinador elemento adyacente */
+        div+section {
+            background: palevioletred;
+        }
+
+        /* Selector combinador general de hermanos */
+        div~p {
+            color: powderblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>Ejemplificacion 1</p>
+        <p>Selectores Combinadores Descendientes</p>
+        <div>
+            <p>Ejemplificacion 2</p>
+            <div>Selectores Combinadores Hijo Directo 1</div>
+            <div class="selector">Selectores Combinadores Hijo Directo 2</div>
+        </div>
+    </div>
+    <div>
+        <p>Ejemplificacion 3</p>
+    </div>
+    <section>
+        Selectores Combinadores Elemento Adyacente
+    </section>
+    <p>Ejemplificacion 4</p>
+    <p>Selectores Combinadores General de Hermanos</p>
+</body>
+
+</html>

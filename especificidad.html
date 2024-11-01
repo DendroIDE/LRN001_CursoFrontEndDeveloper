@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Cuando es clase tiene una especificidad de 10 */
+        .master{
+            color: green;
+        }
+        /* Cuando es id tiene una especificidad de 100 */
+        #platzi{
+            color: red;
+        }
+        
+        /* Por lo tanto predomina el estilo con mayor especificidad*/
+    </style>
+</head>
+<body>
+    <div id="platzi" class="master">Platzi</div>
+</body>
+</html>
